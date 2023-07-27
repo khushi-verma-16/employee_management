@@ -6,12 +6,10 @@ import Details from './pages/Details/Details'
 
 const App = () => {
   return (
-    <>
     <Routes>
-      <Route path='/' element={<Home />}/>
-      <Route path='/details' element={<Details />}/>
+      <Route path='/' element={<Home />} />
+      <Route path='/details' element={<Details />} />
     </Routes>
-    </>
   )
 }
 
