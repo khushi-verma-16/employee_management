@@ -1,0 +1,31 @@
+.text-input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.text-input-container > .text-input-label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaa;
+}
+.text-input-container > .text-input-label > .required{
+    color: #ce411a;
+    padding-left: 3px;
+}
+.text-input-container > .text-input{
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+}
+.text-input-container > .error-msg{
+    font-size: 12px;
+    color: #ce411a;
+    padding-left: 3px;
+}

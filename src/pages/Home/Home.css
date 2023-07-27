@@ -1,0 +1,91 @@
+.sub-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 180px;
+}
+.card-section > .card{
+    min-height: 400px;
+    width: 28%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px -15px rgb(28, 28, 28);
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(34, 191, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-section > .card:hover{
+    /* scale: 1.1; */
+    /* transition: 0.4s ease; */
+}
+.card-section > .card > .img-section{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.card-section > .card > .img-section > .img-container{
+    border-radius: 50%;
+    /* box-shadow: 5px 5px 35px -15px rgb(28, 28, 28); */
+    margin: 0 auto;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.card-section > .card > .img-section > .img-container > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-section > .card > .user-info{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.card-section > .card > .user-info > p{
+    color: rgb(88, 87, 87);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.card-section > .card > .buttons{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+}
+.card-section > .card > .buttons > button{
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px -15px rgb(28, 28, 28);
+    background-color: aquamarine;
+    padding: 12px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0 15px;
+    color: rgb(88, 87, 87);
+    letter-spacing: 1px;
+}
+.card-section > .card > .buttons >.delete-btn{
+    background-color: rgb(251, 92, 52);
+}
+.card-section > .card > .buttons > button:hover{
+    scale: 0.9;
+    transition: 0.4s ease;
+}

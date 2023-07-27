@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 5px 5px 35px -15px rgb(34, 34, 34);
+}
+.header > .title{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.header > .title > .title-link{
+    text-decoration: none;
+    color: black;
+}
+.header > .add-btn{
+    font-size: 18px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+.header > .add-btn:hover{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    transition: 0.6s ease;
+}
+.header > .add-btn > .link{
+    text-decoration: none;
+    color: black;
+}
